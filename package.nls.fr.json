@@ -1,0 +1,10 @@
+{
+  "ext.displayName": "Copy Codes",
+  "ext.description": "Copie le contenu des fichiers et dossiers sélectionnés dans le presse-papiers au format optimisé pour les LLM",
+  "cmd.copyToClipboard": "Copy Codes",
+  "config.title": "Copy Codes",
+  "config.excludePatterns": "Motifs de répertoires/fichiers à exclure (les fichiers binaires sont détectés automatiquement)",
+  "config.maxFileSize": "Taille maximale des fichiers en octets (par défaut : 1 Mo)"
+}
+
+

@@ -1,0 +1,10 @@
+{
+  "ext.displayName": "Copy Codes",
+  "ext.description": "将选中的文件和文件夹内容复制到剪贴板，格式适合 LLM 使用",
+  "cmd.copyToClipboard": "Copy Codes",
+  "config.title": "Copy Codes",
+  "config.excludePatterns": "要排除的目录/文件模式（二进制文件会自动检测）",
+  "config.maxFileSize": "单个文件的最大大小（字节），默认 1MB"
+}
+
+

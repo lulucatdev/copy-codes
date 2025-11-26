@@ -1,0 +1,10 @@
+{
+  "ext.displayName": "Copy Codes",
+  "ext.description": "Salin konten file dan folder yang dipilih ke clipboard dalam format yang dioptimalkan untuk LLM",
+  "cmd.copyToClipboard": "Copy Codes",
+  "config.title": "Copy Codes",
+  "config.excludePatterns": "Pola direktori/file yang dikecualikan (file biner terdeteksi secara otomatis)",
+  "config.maxFileSize": "Ukuran file maksimum dalam byte (default: 1MB)"
+}
+
+

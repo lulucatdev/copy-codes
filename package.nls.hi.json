@@ -1,0 +1,10 @@
+{
+  "ext.displayName": "Copy Codes",
+  "ext.description": "चयनित फ़ाइलों और फ़ोल्डरों की सामग्री को LLM के लिए अनुकूलित प्रारूप में क्लिपबोर्ड पर कॉपी करें",
+  "cmd.copyToClipboard": "Copy Codes",
+  "config.title": "Copy Codes",
+  "config.excludePatterns": "बाहर करने के लिए निर्देशिका/फ़ाइल पैटर्न (बाइनरी फ़ाइलें स्वचालित रूप से पता लगाई जाती हैं)",
+  "config.maxFileSize": "बाइट्स में अधिकतम फ़ाइल आकार (डिफ़ॉल्ट: 1MB)"
+}
+
+

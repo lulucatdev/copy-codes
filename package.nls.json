@@ -1,0 +1,10 @@
+{
+  "ext.displayName": "Copy Codes",
+  "ext.description": "Copy selected files and folders content to clipboard in a format optimized for LLMs",
+  "cmd.copyToClipboard": "Copy Codes",
+  "config.title": "Copy Codes",
+  "config.excludePatterns": "Directory/file patterns to exclude (binary files are auto-detected)",
+  "config.maxFileSize": "Maximum file size in bytes (default: 1MB)"
+}
+
+

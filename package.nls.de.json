@@ -1,0 +1,10 @@
+{
+  "ext.displayName": "Copy Codes",
+  "ext.description": "Kopiert ausgewählte Dateien und Ordner in die Zwischenablage im LLM-optimierten Format",
+  "cmd.copyToClipboard": "Copy Codes",
+  "config.title": "Copy Codes",
+  "config.excludePatterns": "Auszuschließende Verzeichnis-/Dateimuster (Binärdateien werden automatisch erkannt)",
+  "config.maxFileSize": "Maximale Dateigröße in Bytes (Standard: 1MB)"
+}
+
+

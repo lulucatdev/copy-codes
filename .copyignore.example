@@ -1,0 +1,42 @@
+# Copy to LLM - Ignore File Example
+# Syntax is identical to .gitignore
+
+# Ignore specific files
+secret.key
+.env.local
+
+# Ignore by extension
+*.log
+*.tmp
+*.cache
+
+# Ignore directories (trailing slash)
+node_modules/
+.git/
+dist/
+build/
+__pycache__/
+
+# Ignore patterns with wildcards
+*.min.js
+*.min.css
+*.bundle.*
+
+# Ignore files in specific directories
+docs/*.pdf
+temp/**/*.bak
+
+# Double asterisk matches any path
+**/test/**
+**/*.test.ts
+**/*.spec.js
+
+# Negation - don't ignore these
+!important.log
+!src/test/
+
+# Ignore hidden files (starting with .)
+.*
+!.gitignore
+!.copyignore
+

@@ -1,0 +1,10 @@
+{
+  "ext.displayName": "Copy Codes",
+  "ext.description": "選択したファイルとフォルダの内容をLLM向けの形式でクリップボードにコピー",
+  "cmd.copyToClipboard": "Copy Codes",
+  "config.title": "Copy Codes",
+  "config.excludePatterns": "除外するディレクトリ/ファイルパターン（バイナリファイルは自動検出）",
+  "config.maxFileSize": "ファイルの最大サイズ（バイト単位、デフォルト: 1MB）"
+}
+
+

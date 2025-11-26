@@ -1,0 +1,10 @@
+{
+  "ext.displayName": "Copy Codes",
+  "ext.description": "Копіює вміст вибраних файлів і папок до буфера обміну у форматі, оптимізованому для LLM",
+  "cmd.copyToClipboard": "Copy Codes",
+  "config.title": "Copy Codes",
+  "config.excludePatterns": "Шаблони каталогів/файлів для виключення (бінарні файли визначаються автоматично)",
+  "config.maxFileSize": "Максимальний розмір файлу в байтах (за замовчуванням: 1 МБ)"
+}
+
+

@@ -1,0 +1,99 @@
+{
+  "name": "copy-codes",
+  "displayName": "%ext.displayName%",
+  "description": "%ext.description%",
+  "version": "1.0.0",
+  "publisher": "local",
+  "icon": "logo.png",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "copy",
+    "clipboard",
+    "llm",
+    "ai",
+    "code",
+    "files",
+    "folders"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "copy-codes.copyToClipboard",
+        "title": "%cmd.copyToClipboard%"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "copy-codes.copyToClipboard",
+          "group": "7_modification",
+          "when": "explorerResourceIsFolder || explorerResourceIsRoot || resourceScheme == file"
+        }
+      ]
+    },
+    "keybindings": [
+      {
+        "command": "copy-codes.copyToClipboard",
+        "key": "ctrl+shift+alt+l",
+        "mac": "shift+ctrl+cmd+l",
+        "when": "explorerViewletFocus"
+      }
+    ],
+    "configuration": {
+      "title": "%config.title%",
+      "properties": {
+        "copy-codes.excludePatterns": {
+          "type": "array",
+          "default": [
+            "node_modules",
+            ".git",
+            ".DS_Store",
+            ".vscode",
+            ".idea",
+            "__pycache__",
+            "*.lock",
+            "dist",
+            "build",
+            "out",
+            ".next",
+            ".nuxt"
+          ],
+          "description": "%config.excludePatterns%"
+        },
+        "copy-codes.maxFileSize": {
+          "type": "number",
+          "default": 1048576,
+          "description": "%config.maxFileSize%"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "lint": "eslint src --ext ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/vscode": "^1.74.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "typescript": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/user/copy-codes"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,10 @@
+{
+  "ext.displayName": "Copy Codes",
+  "ext.description": "선택한 파일과 폴더 내용을 LLM에 최적화된 형식으로 클립보드에 복사",
+  "cmd.copyToClipboard": "Copy Codes",
+  "config.title": "Copy Codes",
+  "config.excludePatterns": "제외할 디렉토리/파일 패턴 (바이너리 파일은 자동 감지)",
+  "config.maxFileSize": "최대 파일 크기 (바이트 단위, 기본값: 1MB)"
+}
+
+

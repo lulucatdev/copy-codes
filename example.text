@@ -1,0 +1,19 @@
+```file1.md
+content from file1.md
+```
+
+```file2.json
+json content from file2.json
+```
+
+```folder1/file3.txt
+content from folder1/file3.txt
+```
+
+```folder1/folder2/file4.md
+content from file4.md
+```
+
+```folder1/folder2/folder3/file5.json
+json content from file5.json
+```

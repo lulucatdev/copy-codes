@@ -1,0 +1,10 @@
+{
+  "ext.displayName": "Copy Codes",
+  "ext.description": "Copia o conteúdo de arquivos e pastas selecionados para a área de transferência em formato otimizado para LLMs",
+  "cmd.copyToClipboard": "Copy Codes",
+  "config.title": "Copy Codes",
+  "config.excludePatterns": "Padrões de diretórios/arquivos a excluir (arquivos binários são detectados automaticamente)",
+  "config.maxFileSize": "Tamanho máximo do arquivo em bytes (padrão: 1MB)"
+}
+
+

@@ -1,0 +1,10 @@
+{
+  "ext.displayName": "Copy Codes",
+  "ext.description": "Copia el contenido de archivos y carpetas seleccionados al portapapeles en formato optimizado para LLM",
+  "cmd.copyToClipboard": "Copy Codes",
+  "config.title": "Copy Codes",
+  "config.excludePatterns": "Patrones de directorios/archivos a excluir (los archivos binarios se detectan automáticamente)",
+  "config.maxFileSize": "Tamaño máximo de archivo en bytes (predeterminado: 1MB)"
+}
+
+

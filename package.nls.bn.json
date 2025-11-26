@@ -1,0 +1,10 @@
+{
+  "ext.displayName": "Copy Codes",
+  "ext.description": "নির্বাচিত ফাইল এবং ফোল্ডারের বিষয়বস্তু LLM-এর জন্য অপ্টিমাইজড ফরম্যাটে ক্লিপবোর্ডে কপি করুন",
+  "cmd.copyToClipboard": "Copy Codes",
+  "config.title": "Copy Codes",
+  "config.excludePatterns": "বাদ দেওয়ার জন্য ডিরেক্টরি/ফাইল প্যাটার্ন (বাইনারি ফাইল স্বয়ংক্রিয়ভাবে সনাক্ত করা হয়)",
+  "config.maxFileSize": "বাইটে সর্বোচ্চ ফাইলের আকার (ডিফল্ট: 1MB)"
+}
+
+

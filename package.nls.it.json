@@ -1,0 +1,10 @@
+{
+  "ext.displayName": "Copy Codes",
+  "ext.description": "Copia il contenuto di file e cartelle selezionati negli appunti in formato ottimizzato per LLM",
+  "cmd.copyToClipboard": "Copy Codes",
+  "config.title": "Copy Codes",
+  "config.excludePatterns": "Pattern di directory/file da escludere (i file binari vengono rilevati automaticamente)",
+  "config.maxFileSize": "Dimensione massima del file in byte (predefinito: 1MB)"
+}
+
+

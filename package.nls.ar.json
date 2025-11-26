@@ -1,0 +1,10 @@
+{
+  "ext.displayName": "Copy Codes",
+  "ext.description": "نسخ محتوى الملفات والمجلدات المحددة إلى الحافظة بتنسيق محسّن لنماذج اللغة الكبيرة",
+  "cmd.copyToClipboard": "Copy Codes",
+  "config.title": "Copy Codes",
+  "config.excludePatterns": "أنماط المجلدات/الملفات المراد استبعادها (يتم اكتشاف الملفات الثنائية تلقائياً)",
+  "config.maxFileSize": "الحد الأقصى لحجم الملف بالبايت (الافتراضي: 1 ميجابايت)"
+}
+
+

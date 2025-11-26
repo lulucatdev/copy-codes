@@ -1,0 +1,10 @@
+{
+  "ext.displayName": "Copy Codes",
+  "ext.description": "將選取的檔案和資料夾內容複製到剪貼簿，格式適合 LLM 使用",
+  "cmd.copyToClipboard": "Copy Codes",
+  "config.title": "Copy Codes",
+  "config.excludePatterns": "要排除的目錄/檔案模式（二進位檔案會自動偵測）",
+  "config.maxFileSize": "單一檔案的最大大小（位元組），預設 1MB"
+}
+
+

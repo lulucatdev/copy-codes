@@ -1,0 +1,10 @@
+{
+  "ext.displayName": "Copy Codes",
+  "ext.description": "ఎంచుకున్న ఫైల్‌లు మరియు ఫోల్డర్‌ల కంటెంట్‌ను LLM కోసం ఆప్టిమైజ్ చేసిన ఫార్మాట్‌లో క్లిప్‌బోర్డ్‌కు కాపీ చేయండి",
+  "cmd.copyToClipboard": "Copy Codes",
+  "config.title": "Copy Codes",
+  "config.excludePatterns": "మినహాయించాల్సిన డైరెక్టరీ/ఫైల్ నమూనాలు (బైనరీ ఫైల్‌లు స్వయంచాలకంగా గుర్తించబడతాయి)",
+  "config.maxFileSize": "బైట్‌లలో గరిష్ట ఫైల్ పరిమాణం (డిఫాల్ట్: 1MB)"
+}
+
+

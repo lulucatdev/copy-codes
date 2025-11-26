@@ -1,0 +1,10 @@
+{
+  "ext.displayName": "Copy Codes",
+  "ext.description": "தேர்ந்தெடுக்கப்பட்ட கோப்புகள் மற்றும் கோப்புறைகளின் உள்ளடக்கத்தை LLM க்கு உகந்த வடிவத்தில் கிளிப்போர்டுக்கு நகலெடுக்கவும்",
+  "cmd.copyToClipboard": "Copy Codes",
+  "config.title": "Copy Codes",
+  "config.excludePatterns": "விலக்க வேண்டிய கோப்பகம்/கோப்பு வடிவங்கள் (பைனரி கோப்புகள் தானாக கண்டறியப்படும்)",
+  "config.maxFileSize": "பைட்டுகளில் அதிகபட்ச கோப்பு அளவு (இயல்புநிலை: 1MB)"
+}
+
+

@@ -3,7 +3,7 @@
   "displayName": "%ext.displayName%",
   "description": "%ext.description%",
   "version": "1.0.0",
-  "publisher": "local",
+  "publisher": "goodwrite",
   "icon": "logo.png",
   "engines": {
     "vscode": "^1.74.0"
